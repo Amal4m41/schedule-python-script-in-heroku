@@ -1,6 +1,8 @@
 # schedule-python-script-in-heroku
 ### This is a workaround method to schedule jobs using python script on heroku for free.
 
+#### For detailed explanation checkout : https://youtu.be/SH_KOHyU6Dg
+
 ### The job scheduled in here is to populate a remote mongodb collection after every 10 seconds with a dummy data.
 
 
