@@ -3,14 +3,17 @@ import datetime
 import time
 from pymongo import MongoClient
 
+
+#For example purpose this code populates a mongodb collection with a dummy data every 10 seconds.
+
 #Connecting to the cluster
 cluster =MongoClient(<code/credentials to connect to the mongodb remote server>)
 
 #Specifying which DB
-db=cluster['Dummy']    
+db=cluster[<name of your database>]    
 
 #Specifying which collection in the DB
-collection=db['dummy_collection'] 
+collection=db[<name of your collection>] 
 
 # a job scheduled to run every 10 seconds
 while(True):
