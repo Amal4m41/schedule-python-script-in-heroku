@@ -1,0 +1,1 @@
+str_val="mongodb+srv://Amal:coviddata@cluster0.d2edi.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
